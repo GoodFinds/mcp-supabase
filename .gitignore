@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+.env
+.env.local
+
+# MCP 配置文件（包含敏感信息）
+.cursor/mcp.json
+

@@ -1,0 +1,32 @@
+{
+  "name": "supabase-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Supabase database operations",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "supabase-mcp": "./dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "mcp",
+    "supabase",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "@supabase/supabase-js": "^2.89.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.27",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}
+
