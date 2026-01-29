@@ -7,3 +7,4 @@ dist/
 # MCP 配置文件（包含敏感信息）
 .cursor/mcp.json
 
+.cursor/mcp.json.backup
